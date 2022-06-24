@@ -1,10 +1,10 @@
 - name: Register varibales
   hosts: localhost
   tasks:
-    - name: Run uptime command
-      ansible.builtin.shell: uptime
-      register: output
-    - name: Print output of shell command
-      ansible.builtin.debug:
-      msg: "{{output}}"
+    -   name: Run uptime command
+        ansible.builtin.shell: uptime
+        register: output
+    -   name: Print output of shell command
+        ansible.builtin.debug:
+        msg: "{{output}}"
 
