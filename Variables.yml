@@ -1,4 +1,4 @@
-- name: Register varibales
+- name: Register variables
   hosts: localhost
   tasks:
     -   name: Run uptime command
